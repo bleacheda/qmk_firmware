@@ -16,4 +16,4 @@
 #define ONESHOT_TIMEOUT 3000  /* Time (in ms) before the one shot key is released. If this is not defined, the one shot key remains active indefinitely until another key is pressed. */
 
 // Combo settings
-#define COMBO_TERM 30 /* Lower the timeout to 40ms from the default of 50ms to avoid accidental triggering of combos. */
+#define COMBO_TERM 30 /* Lower the timeout from the default of 50ms to avoid accidental triggering of combos. */
